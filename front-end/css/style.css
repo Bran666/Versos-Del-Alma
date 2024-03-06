@@ -1,0 +1,98 @@
+*{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    background-color: #C8A47E;
+    padding: 30px;
+}
+
+
+.header-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.header-tittle {
+    font-size: 25px;
+}
+
+.header-information {
+    display: flex;
+    align-items: center;
+}
+
+.buttons-header {
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: none;
+
+}
+.buttons-header:hover {
+    height: 2px;
+    background-color: #000000;
+}
+
+.left-links {
+    display: flex;
+    margin-top: 20px;
+    flex-grow: 1;
+    padding: 50px;
+}
+
+.search-input{
+    height: 50px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.search-button{
+    height: 45px;
+    width: 80px;
+    border: 1px solid gray ;
+    border-radius: 12px;
+    font-size: 16px;
+    background: whitesmoke;
+}
+
+
+hr{
+    color: black;
+    width: 2px;
+    background-color: #000000;
+    margin-left: 20px;
+    border: none;
+}
+
+.section-dates{
+    display: flex;
+}
+
+.information-dates{
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.section-name-user{
+    font-size: 20px;
+}
+
+.descripcion-user{
+    color: rgb(44, 44, 44);
+}
+
+.hr-footer{
+    width: 1750px;
+    height: 1px;
+}
+.page-footer{
+    justify-content: space-between;
+}
